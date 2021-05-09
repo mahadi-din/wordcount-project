@@ -1,6 +1,6 @@
 <h1>There are {{count}} numbers<h1>
 <a href="{% url 'home'%}">Back to home</a>
-<h2>Word counts:</h2>
+<h1>Word counts:</h1>
 {% for word, counttotal in sortedwords%}
 
 {{word}}-{{counttotal}}
